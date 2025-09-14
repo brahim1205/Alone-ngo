@@ -8,8 +8,8 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Alone-ngo",
-  description: "Created with v0",
-  generator: "v0.app",
+  description: "Created with khalil",
+  generator: "Alone.ngo",
 }
 
 export default function RootLayout({
