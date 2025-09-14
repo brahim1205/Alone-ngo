@@ -19,7 +19,7 @@ export function SecondaryHero() {
           <button className="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 font-medium">
             DONATE NOW
           </button>
-          <button className="border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-purple-900 font-medium transition-colors">
+          <button className="border-2 border-white text-white bg-black/20 px-8 py-3 rounded-lg hover:bg-white hover:text-purple-900 font-medium transition-colors">
             APPLY FOR VOLUNTEER
           </button>
         </div>

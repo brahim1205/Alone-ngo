@@ -26,15 +26,15 @@ export function ProductShop() {
       originalPrice: null,
       image: "/aloe-vera-eco-hand-soap.jpg",
       sale: false,
-      badges: ["Natural"],
+      badges: [],
     },
     {
-      name: "Natural Lip Balm",
+      name: "Lip Balm",
       price: "£7.00",
       originalPrice: null,
       image: "/natural-organic-lip-balm.jpg",
       sale: false,
-      badges: ["Natural", "Premium Product"],
+      badges: [],
     },
   ]
 
