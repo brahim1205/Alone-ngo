@@ -10,7 +10,7 @@ export function ProductShop() {
       originalPrice: null,
       image: "/reusable-coffee-mug-collection.jpg",
       sale: true,
-      badges: ["Handmade", "Eco-Friendly"],
+      badges: [],
     },
     {
       name: "Fair-Trade Coffee Beans",
@@ -39,13 +39,21 @@ export function ProductShop() {
   ]
 
   const brandLogos = [
-    "DEERREED",
-    "ORIGINAL CO",
-    "SHOPNAME",
-    "quality product",
-    "Holiden & Madian",
-    "HOSOREN 1991",
-    "BUSINESS",
+    {
+      icon: "/imgi_25_cts-icon-2.png",
+    },
+    {
+      icon: "/imgi_26_cts-icon-3.png",
+    },
+    {
+      icon: "/imgi_27_cts-icon-4.png",
+    },
+    {
+      icon: "/imgi_28_cts-icon-5.png",
+    },
+    {
+      icon: "/imgi_26_cts-icon-3.png",
+    },
   ]
 
   return (
@@ -92,11 +100,11 @@ export function ProductShop() {
           ))}
         </div>
 
-        <div className="border-t pt-8">
-          <div className="flex flex-wrap justify-center items-center gap-8 text-sm font-semibold text-muted-foreground">
+        <div className="mt-8">
+          <div className="w-full py-8 px-4 rounded-xl bg-green-100 flex flex-wrap justify-center items-center gap-16">
             {brandLogos.map((logo, index) => (
-              <div key={index} className="px-4 py-2 border rounded-lg bg-background">
-                {logo}
+              <div key={index} className="flex flex-col items-center min-w-[100px]">
+                <img src={logo.icon} alt={`Brand logo ${index + 1}`} className="h-40 w-40 object-contain" />
               </div>
             ))}
           </div>

@@ -20,7 +20,7 @@ export function MissionSection() {
               their own future.
             </p>
             <div className="mt-8">
-              <img src="/handwritten-signature-in-orange.jpg" alt="Signature" className="h-12" />
+              <img src="/handwritten-signature-in-orange.png" alt="Signature" className="h-12" />
             </div>
           </div>
         </div>

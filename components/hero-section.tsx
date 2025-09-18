@@ -9,7 +9,7 @@ export function HeroSection() {
           backgroundImage: `url('/diverse-hands-reaching-out-to-help-each-other--com.jpg')`,
         }}
       />
-      <div className="absolute inset-0 bg-purple-900/70" />
+      <div className="absolute inset-0 bg-purple-900/30" />
 
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">

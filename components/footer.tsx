@@ -45,32 +45,32 @@ export function Footer() {
             <h4 className="text-lg font-bold mb-4">HIGHLIGHTS</h4>
             <div className="grid grid-cols-3 gap-2">
               <img
-                src="/people-packing-donation-boxes.jpg"
+                src="/imgi_85_gallery-img-7-300x200.png"
                 alt="People packing donation boxes"
                 className="w-full h-16 object-cover rounded"
               />
               <img
-                src="/young-woman-with-donation-box.jpg"
+                src="/imgi_86_gallery-img-2-300x200.png"
                 alt="Young woman with donation box"
                 className="w-full h-16 object-cover rounded"
               />
               <img
-                src="/medical-professionals-helping-patients.jpg"
+                src="/imgi_87_gallery-img-1-300x300.png"
                 alt="Medical professionals helping patients"
                 className="w-full h-16 object-cover rounded"
               />
               <img
-                src="/elderly-person-receiving-help-and-care.jpg"
+                src="/imgi_88_gallery-img-4-300x200.png"
                 alt="Elderly person receiving help and care"
                 className="w-full h-16 object-cover rounded"
               />
               <img
-                src="/children-helping-in-community-volunteer-work.jpg"
+                src="/imgi_89_gallery-img-5-300x200.png"
                 alt="Children helping in community volunteer work"
                 className="w-full h-16 object-cover rounded"
               />
               <img
-                src="/smiling-volunteer-woman-in-warehouse-with-donation.jpg"
+                src="/imgi_90_gallery-img-6-300x200.png"
                 alt="Smiling volunteer woman in warehouse with donation"
                 className="w-full h-16 object-cover rounded"
               />

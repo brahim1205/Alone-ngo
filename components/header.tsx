@@ -3,12 +3,10 @@ import { Facebook, Twitter, Linkedin, Instagram, Youtube } from "lucide-react"
 export function Header() {
   return (
     <header className="w-full">
-      {/* Top contact bar */}
+      {/* Barre de contact */}
       <div className="bg-gray-50 py-2 px-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center text-sm">
-          <div className="flex items-center gap-6">
-            <span className="text-gray-600">Phone No: (+42) 348 952 11</span>
-          </div>
+          <span className="text-gray-600">Phone No: (+42) 348 952 11</span>
           <div className="flex items-center gap-2">
             <span className="text-gray-600">Follow Us:</span>
             <div className="flex gap-2">
@@ -22,48 +20,29 @@ export function Header() {
         </div>
       </div>
 
-      {/* Main navigation */}
+      {/* Navigation principale */}
       <nav className="bg-white border-b py-4 px-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <div className="flex items-center">
-              <div className="w-8 h-8 bg-orange-500 rounded-sm flex items-center justify-center text-white font-bold text-sm mr-1">
-                N
-              </div>
-              <div className="w-8 h-8 bg-green-600 rounded-sm flex items-center justify-center text-white font-bold text-sm mr-1">
-                G
-              </div>
-              <div className="w-8 h-8 bg-blue-500 rounded-sm flex items-center justify-center text-white font-bold text-sm">
-                O
-              </div>
-            </div>
-            <div className="ml-2">
-              <div className="text-2xl font-bold text-gray-800">ALONE</div>
-              <div className="text-xs text-gray-500">NGO Organization</div>
-            </div>
+          {/* Logo */}
+          <div className="flex items-center">
+            <img
+              src={"/imgi_1_cts-logo.png"}
+              alt="Logo"
+              className="h-16 w-auto object-contain"
+            />
           </div>
 
+          {/* Liens de navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#" className="text-orange-500 hover:text-orange-600 font-medium">
-              HOME
-            </a>
-            <a href="#" className="text-gray-700 hover:text-orange-500 font-medium">
-              PAGES
-            </a>
-            <a href="#" className="text-gray-700 hover:text-orange-500 font-medium">
-              BLOG
-            </a>
-            <a href="#" className="text-gray-700 hover:text-orange-500 font-medium">
-              CAUSES
-            </a>
-            <a href="#" className="text-gray-700 hover:text-orange-500 font-medium">
-              SHOP
-            </a>
-            <a href="#" className="text-gray-700 hover:text-orange-500 font-medium">
-              CONTACT
-            </a>
+            <a href="#" className="text-orange-500 hover:text-orange-600 font-medium">HOME</a>
+            <a href="#" className="text-gray-700 hover:text-orange-500 font-medium">PAGES</a>
+            <a href="#" className="text-gray-700 hover:text-orange-500 font-medium">BLOG</a>
+            <a href="#" className="text-gray-700 hover:text-orange-500 font-medium">CAUSES</a>
+            <a href="#" className="text-gray-700 hover:text-orange-500 font-medium">SHOP</a>
+            <a href="#" className="text-gray-700 hover:text-orange-500 font-medium">CONTACT</a>
           </div>
 
+          {/* Panier */}
           <div className="flex items-center gap-4">
             <div className="relative">
               <div className="w-10 h-10 bg-orange-500 rounded flex items-center justify-center">

@@ -27,7 +27,7 @@ export function TestimonialsSection() {
           </blockquote>
 
           <div className="flex items-center justify-center gap-4 mb-8">
-            <img src="/smiling-man-profile-photo.jpg" alt="Zahid R." className="w-15 h-15 rounded-full object-cover" />
+            <img src="/smiling-man-profile-photo.png" alt="Zahid R." className="w-15 h-15 rounded-full object-cover" />
             <div className="text-left">
               <div className="font-semibold text-white">— Zahid R.</div>
               <div className="text-orange-400 text-sm">Nairobi</div>
